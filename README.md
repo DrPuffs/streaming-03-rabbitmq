@@ -71,20 +71,20 @@ and a consistent, reusable approach to building code.
 
 Each of the version 2 programs include an error as well. 
 
-1. Find the error and fix it. 
-1. Compare the structure of the version 2 files. 
+1. Find the error and fix it.
+1. Compare the structure of the version 2 files.
 1. Modify the docstrings on all your files.
-1. Include your name and the date.
-1. Imports always go at the top, just after the file docstring.
-1. Imports should be one per line - why?
-1. Then, define your functions.
+1. Include your name and the date. 
+1. Imports always go at the top, just after the file docstring. 
+1. Imports should be one per line - why? Could lead to potential conflicts in your code if done on one line.
+1. Then, define your functions. 
 1. Functions are reuable logic blocks.
 1. Everything the function needs comes in through the arguments.
 1. A function may - or may not - return a value. 
 1. When we open a connection, we should close the connection. 
-1. Which of the 4 files will always close() the connection?
+1. Which of the 4 files will always close() the connection? v1_emit_message
 1. Search GitHub for if __name__ == "__main__":
-1. How many hits did you get? 
+1. How many hits did you get? code: 22 million, commits: 2 million+, issues: 88,000, discussions: 1,000, wikis: 5,000
 1. Learn and understand this common Python idiom.
 
 ## Reference
@@ -95,3 +95,10 @@ Each of the version 2 programs include an error as well.
 ## Multiple Terminals
 
 ![Mac Example](screenshot.png)
+
+
+## Emit Message Snippet
+![Alt text](Emitting%20message.png)
+
+## Receiving Image Snippet
+![Alt text](Receiving%20Message.png)
