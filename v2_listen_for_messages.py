@@ -1,28 +1,15 @@
 """
 
-Always customize this docstring. 
 
-Add your name, date, and a description of the program.
+Ryan Shaw
+1/28/2023
+
+Fixed the error.
+Confirmed the program works as intended.
+Edited the docstring.
 
 Listens for messages on the queue.
 This process runs continously. 
-
-Approach
----------
-Simple - one producer / one consumer.
-
-
-Since this process runs continuously, 
-if we want to emit more messages, 
-we'll need to open a new terminal window.
-
-
-Terminal Reminders
-------------------
-
-- Use Control c to close a terminal and end a process.
-
-- Use the up arrow to get the last command executed.
 
 """
 
@@ -89,6 +76,6 @@ def main(hn: str = "localhost"):
 # without executing the code below.
 # If this is the program being run, then execute the code below
 if __name__ == "__main__":
-    main("localhostttt")
+    main("localhost")
   
      

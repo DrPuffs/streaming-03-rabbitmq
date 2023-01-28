@@ -1,28 +1,18 @@
 """
 
-Always customize this docstring. 
-
-Add your name, date, and a description of the program.
+Ryan Shaw
+1/28/2023
 
 Listens for messages on the queue.
 This process runs continously. 
 
-Approach
----------
-Simple - one producer / one consumer.
+
 
 
 Since this process runs continuously, 
 if we want to emit more messages, 
 we'll need to open a new terminal window.
 
-
-Terminal Reminders
-------------------
-
-- Use Control c to close a terminal and end a process.
-
-- Use the up arrow to get the last command executed.
 
 """
 
@@ -34,7 +24,7 @@ import pika, sys, os
 # define a main function to run the program
 def main():
     # create a blocking connection to the RabbitMQ server
-    connection = pika.BlockingConnection(pika.ConnectionParameters(host='LocalHostt'))
+    connection = pika.BlockingConnection(pika.ConnectionParameters(host='LOCALHOST'))
     # use the connection to create a communication channel
     channel = connection.channel()
     # use the channel to declare a queue
